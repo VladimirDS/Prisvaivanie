@@ -1,0 +1,22 @@
+// Sintacsis.cpp: Цикл
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+int main()
+{
+	int n = 5;
+	int sum = 0;
+	int i = 0;
+	while (i<=n)
+	{
+		sum += i;
+		i += 1;
+	}
+	cout << sum;	
+	getchar();
+	return 0;
+}
